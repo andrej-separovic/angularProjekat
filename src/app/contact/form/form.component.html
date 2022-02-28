@@ -1,0 +1,30 @@
+<form class="row g-3 col-8 offset-2 mt-5 bojaTema fst-italic" (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <div class="col-md-6">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control shadow" id="name" placeholder="Name..." name="name" #name="ngModel" ngModel required minlength="3">
+      <span class="help" *ngIf="!name.valid && name.touched && name.errors?.required"> Name is required.</span>
+      <span class="help" *ngIf="!name.valid && name.touched && name.errors?.minlength"> Name must be at least 3 characters long.</span>
+    </div>
+    <div class="col-md-6">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control shadow" id="lastName" placeholder="Last name..." name="lastName" #lastName="ngModel" ngModel required minlength="3">
+      <span class="help" *ngIf="!lastName.valid && lastName.touched && lastName.errors?.required"> Last name is required.</span>
+      <span class="help" *ngIf="!lastName.valid && lastName.touched && lastName.errors?.minlength"> Last name must be at least 3 characters long.</span>
+    </div>
+    <div class="col-12">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control shadow" id="email" placeholder="example@email.com" name="email" #email="ngModel" ngModel required email minlength="9">
+      <span class="help" *ngIf="!email.valid && email.touched && email.errors?.required"> Email is required.</span>
+      <span class="help" *ngIf="!email.valid && email.touched && email.errors?.email"> Invalid email format.</span>
+      <span class="help" *ngIf="!email.valid && email.touched && email.errors?.minlength"> Email must be at least 9 characters long.</span>
+    </div>
+    <div class="col-12">
+      <label for="message">Comment</label>
+      <textarea class="form-control shadow" id="message" style="height: 100px" name="comment" #comment="ngModel" ngModel required minlength="30"></textarea>
+      <span class="help" *ngIf="!comment.valid && comment.touched && comment.errors?.required"> Comment is required.</span>
+      <span class="help" *ngIf="!comment.valid && comment.touched && comment.errors?.minlength"> Your comment must be at least 30 characters long.</span>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-dark temaDruga bordura" [disabled]="!f.valid">Send</button>
+    </div>
+</form>

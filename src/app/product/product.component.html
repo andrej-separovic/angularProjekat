@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-lg-4 offset-8">
+        <form>
+            <select class="form-select form-select-lg mb-3" (change)="selectCategory()" name="category" [(ngModel)]="selectedCategory">
+                <option value="0">Menu</option>
+                <option *ngFor="let option of categories" value="{{option.id}}">{{option.name}}</option>
+            </select>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-6" *ngFor="let product of products">
+        <div class="card mb-5 shadow" @fade>
+            <img src="../../assets/img/{{product.image.src}}" class="card-img-top" alt="{{product.image.alt}}">
+            <div class="card-body">
+                <h5 class="card-title">{{product.name}}</h5>
+                <p class="card-text">{{product.description}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{product.price | currency}}</li>
+            </ul>
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,200 @@
+[
+    {
+        "id" : 1,
+        "name" : "Omelette",
+        "description" : "Omelette served with grated cheese and tomato.",
+        "price" : 5,
+        "category" : 1,
+        "image" : {
+            "src": "omelette.jpg",
+            "alt": "Omelette"
+        }
+    },
+    {
+        "id" : 2,
+        "name" : "Fried eggs",
+        "description" : "Fried ggs served with sausages, bacon, beans and tomato.",
+        "price" : 7,
+        "category" : 1,
+        "image" : {
+            "src": "fried eggs.jpg",
+            "alt": "Fried eggs"
+        }
+    },
+    {
+        "id" : 3,
+        "name" : "Waffles",
+        "description" : "Waffles served with syrup and fruit of your choice.",
+        "price" : 6,
+        "category" : 1,
+        "image" : {
+            "src": "waffles.png",
+            "alt": "Waffles"
+        }
+    },
+    {
+        "id" : 4,
+        "name" : "Bruschetta",
+        "description" : "Three delicious bruschette of your choice.",
+        "price" : 12,
+        "category" : 2,
+        "image" : {
+            "src": "bruschetta.png",
+            "alt": "Bruschetta"
+        }
+    },
+    {
+        "id" : 5,
+        "name" : "Carpaccio",
+        "description" : "Perfect thinly sliced beef. Just like in Venice.",
+        "price" : 13,
+        "category" : 2,
+        "image" : {
+            "src": "carpaccio.jpg",
+            "alt": "Carpaccio"
+        }
+    },
+    {
+        "id" : 6,
+        "name" : "Chicken soup",
+        "description" : "Bowl of hot chicken soup and tasty vegetables.",
+        "price" : 5,
+        "category" : 3,
+        "image" : {
+            "src": "chicken vegetable soup.jpg",
+            "alt": "Chicken soup"
+        }
+    },
+    {
+        "id" : 7,
+        "name" : "Mushroom soup",
+        "description" : "Finest creamy soup with boletus mushrooms.",
+        "price" : 6,
+        "category" : 3,
+        "image" : {
+            "src": "mushroom soup.jpg",
+            "alt": "Mushroom soup"
+        }
+    },
+    {
+        "id" : 8,
+        "name" : "Mushroom risotto",
+        "description" : "Creamy mushroom risotto with fine spices.",
+        "price" : 10,
+        "category" : 4,
+        "image" : {
+            "src": "mushroom risotto.jpg",
+            "alt": "Mushroom risotto"
+        }
+    },
+    {
+        "id" : 9,
+        "name" : "Seafood risotto",
+        "description" : "Juicy risotto with mussels, shrimps and squid.",
+        "price" : 15,
+        "category" : 4,
+        "image" : {
+            "src": "seafood risotto.jpg",
+            "alt": "Seafood risotto"
+        }
+    },
+    {
+        "id" : 10,
+        "name" : "Pasta bolognese",
+        "description" : "Perfect Italian dish for those of us who love minced beef with plum tomatoes",
+        "price" : 14,
+        "category" : 5,
+        "image" : {
+            "src": "pasta bolognese.jpg",
+            "alt": "Pasta bolognese"
+        }
+    },
+    {
+        "id" : 11,
+        "name" : "Gnocchi with gorgonzola",
+        "description" : "Best gorgonzola cheese with perfectly cooked gnocci.",
+        "price" : 18,
+        "category" : 5,
+        "image" : {
+            "src": "gnocchi with gorgonzola.jpg",
+            "alt": "Gnocchi with gorgonzola"
+        }
+    },
+    {
+        "id" : 12,
+        "name" : "Pasta carbonara",
+        "description" : "Amazing italian dish for everyone who loves pasta.",
+        "price" : 17,
+        "category" : 5,
+        "image" : {
+            "src": "pasta carbonara.jpg",
+            "alt": "Pasta carbonara"
+        }
+    },
+    {
+        "id" : 13,
+        "name" : "Caprese salad",
+        "description" : "Perfect combination of fresh tomato, soft mozzarella and basil.",
+        "price" : 15,
+        "category" : 6,
+        "image" : {
+            "src": "caprese salad.jpg",
+            "alt": "Caprese salad"
+        }
+    },
+    {
+        "id" : 14,
+        "name" : "Caesar salad",
+        "description" : "Fine grilled chicken with iceberg salad and crispy crouton.",
+        "price" : 16,
+        "category" : 6,
+        "image" : {
+            "src": "caesar salad.jpg",
+            "alt": "Caesar salad"
+        }
+    },
+    { 
+        "id" : 15,
+        "name" : "Greek salad",
+        "description" : "Just a perfect mix of fresh vegetables with tasty feta cheese.",
+        "price" : 14,
+        "category" : 6,
+        "image" : {
+            "src": "greek salad.jpg",
+            "alt": "Greek salad"
+        }
+    },
+    { 
+        "id" : 16,
+        "name" : "Cheesecake",
+        "description" : "Perfectly sweet and tasty caramel cheesecake.",
+        "price" : 15,
+        "category" : 7,
+        "image" : {
+            "src": "cheesecake.jpg",
+            "alt": "Cheesecake"
+        }
+    },
+    { 
+        "id" : 17,
+        "name" : "Pancakes",
+        "description" : "Soft and tasty pancakes with syrup and fruid of your choic.",
+        "price" : 13,
+        "category" : 7,
+        "image" : {
+            "src": "pancakes.jpg",
+            "alt": "Pancakes"
+        }
+    },
+    { 
+        "id" : 18,
+        "name" : "Tiramuisu",
+        "description" : "Coffee-flavoured dream for everyone.",
+        "price" : 15,
+        "category" : 7,
+        "image" : {
+            "src": "tiramisu.jpg",
+            "alt": "Tiramuisu"
+        }
+    }
+]
